@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #ffd700;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+.header-left h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.header-left p {
+    color: #777;
+    font-size: 18px;
+}
+
+.header-right p {
+    text-align: right;
+}
+
+.header-right p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cecece;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.job p {
+    margin-bottom: 15px;
+}
+
+/* Flexbox for section title and content */
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    flex: 1 1 25%;
+    font-style: italic;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.section-content {
+    flex: 1 1 70%;
+}
+
+.section-content p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Key Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills div {
+    flex: 1 1 30%;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
